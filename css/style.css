@@ -1,0 +1,285 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdfdf;
+}
+
+/*Header*/
+
+/*navigation starts*/
+
+#my-navigation{
+    background: none;
+    border: none;
+    color:#ffff;
+    width:100%;
+    position:absolute;
+    z-index:10;
+}
+
+#my-navigation .navbar-toggle{
+   display:block;
+   border:0;
+}
+
+#my-navigation .navbar-toggle:hover{
+    background: none;
+    cursor:pointer;
+}
+
+#my-navigation,.navbar-header{
+    float:none;
+}
+
+#my-navigation .navbar-right{
+    float:left !important;
+}
+
+#my-navigation .icon-left{
+    float:left;
+}
+
+#my-navigation .icon-bar{
+    background-color:#fff;
+}
+
+#my-navigation .icon-right{
+    float:right;
+    position:relative;
+    top:-3px;
+    padding-left:10px;
+}
+
+#my-navigation .navbar-brand,#my-navigation ul li a{
+    color:#fff;
+}
+
+/*carousel-code*/
+
+.my-container{
+    padding:0;
+    color:#fff;
+}
+
+.carousel .item{
+    background-image: url("../img/slide01.jpg");
+    width:100vw;
+    height:100vh;
+    background-size:cover;
+}
+
+.carousel .item2{
+    background-image: url("../img/slide02.jpg");
+}
+
+.carousel .item3{
+    background-image: url("../img/slide03.jpg");
+}
+
+.carousel .item4{
+    background-image: url("../img/slide04.jpg");
+}
+
+.carousel .item5{
+    background-image: url("../img/slide05.jpg");
+}
+
+/*banner*/
+
+.banner{
+    text-align:center;
+    width:30%;
+    position:absolute;
+    top:40%;
+    left:35%;
+    z-index:20;
+}
+
+.banner hr{
+    width:50%;
+}
+
+.banner p{
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+.banner h1{
+    font-weight:300;
+    font-size:120px;
+    margin-top:5px;
+}
+
+/*two-section*/
+
+.two-section{
+    padding:70px 0;
+}
+
+.two-section img{
+    width:100%;
+}
+
+.two-section .left{
+    background-color: #fff;
+    text-align: center;
+    width:95%;
+}
+
+.two-section .right{
+    background-color: #ffff;
+    text-align: center;
+    width:95%;
+}
+
+.two-section .right{
+    margin-left:5%;
+}
+
+.two-section h6{
+    font-size:13px;
+    letter-spacing: 4px;
+    color:gray;
+    margin-top:50px;
+}
+
+.two-section button{
+    width:150px;
+    height:40px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    margin-top:40px;
+    margin-bottom:60px;
+}
+
+.two-section hr{
+    width:35%;
+    margin:0 auto;
+    height:1px;
+    color:gray;
+}
+
+/*full quote*/
+
+.full-quote{
+    background-image: url("../img/bg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center ;
+    color:#fff;
+    padding:100px 0;
+    text-align:center;
+}
+
+.full-quote p,.four-image-section p{
+    letter-spacing: 4px;
+    font-size:13px;
+}
+
+.full-quote hr,.four-image-section hr{
+    width:50%;
+    height:1px;
+    color:gray;
+}
+
+.full-quote h5,.four-image-section h5{
+    font-size:40px;
+    font-weight:300;
+    margin-top:10px;
+}
+
+/*four-image-section*/
+
+.four-image-section{
+    text-align:center;
+    padding:100px 0;
+}
+
+.four-image-section .four-images{
+    padding-top:70px;
+    padding-bottom:50px;
+}
+
+ .four-images img{
+    width:95%;
+    float:left;
+    margin-bottom:10%;
+    border:10px solid #fff;
+
+}
+
+.four-image-section  .left{
+    margin-left:5%;
+}
+
+
+/*footer*/
+
+.footer{
+    padding:80px 0;
+    background-color: #000;
+    text-align:center;
+}
+
+.footer .fa{
+    padding:10px;
+    color:gray;
+    font-size:20px;
+}
+
+.footer p{
+    margin-top:15px;
+    color:gray;
+}
+ 
+
+
+@media (max-width:768px){
+
+    #my-navigation .navbar-right{
+        padding-left:15px;
+        padding-right: 15px;
+    }
+
+    .two-section .left{
+        width:100%;
+    }
+
+    .two-section .right{
+        width:100%;
+        margin-left:0;
+    }
+
+    .four-images img{
+        width:100%;
+    }
+
+    .four-images .left{
+        width:100%;
+        margin-left:0;
+    }
+
+}
+
+
+
+@media (max-width:992px){
+
+    .banner h1{
+        font-size:80px;
+    }
+
+    .banner p{
+        letter-spacing: 3px;
+        font-size:10px;
+    }
+
+    .full-quote p,.four-image-section p{
+        letter-spacing:3px;
+        font-size:10px;
+    }
+
+    .full-quote h5,.four-image-section h5{
+        font-size:30px;
+    }
+}
+
